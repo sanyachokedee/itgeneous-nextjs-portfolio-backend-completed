@@ -17,7 +17,7 @@ const PortfolioDetail = ({portfolio}) => {
             <div className="container py-20 mx-auto">
                 <div className="flex flex-wrap items-center">
                 <div className="w-full p-4 lg:w-4/12">
-                    <img src={`https://thawing-refuge-79448.herokuapp.com/${portfolio.image[0].url}`} className="w-full" />
+                    <img src={`https://thawing-refuge-79448.herokuapp.com${portfolio.image[0].url}`} className="w-full" />
                 </div>
                 <div className="w-full p-4 lg:w-7/12 lg:ml-auto">
                     <h6 className="mb-3 font-medium text-indigo-900">{portfolio.Headline}</h6>
