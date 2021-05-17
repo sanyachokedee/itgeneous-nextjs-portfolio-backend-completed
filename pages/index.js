@@ -29,7 +29,7 @@ export default function Home({ portfolioItems }) {
             <div className="w-full p-4 lg:w-3/12 sm:w-6/12" key={portfolio.id}>
               <Link href="/portfolio/[id]" as={`/portfolio/${portfolio.slug}`}>
                 <a className="block text-left hover:opacity-75"> 
-                  <img src={`https://thawing-refuge-79448.herokuapp.com/${ portfolio.image[0].url}`} className="object-cover w-full h-64" /> 
+                  <img src={`https://thawing-refuge-79448.herokuapp.com${ portfolio.image[0].url}`} className="object-cover w-full h-64" /> 
                   <div className="flex items-center justify-between px-4 py-3 bg-indigo-100">
                     <h5 className="text-base font-semibold text-gray-900">{portfolio.Headline}</h5>
                     <i className="fa-plus fas" />
